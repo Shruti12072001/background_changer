@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 20px 100px;
+        }
+          h1{
+              text-align: center;
+              text-decoration: underline;
+          }
+
+          img{
+              width: 100%;
+              height: auto;
+              margin: 0 auto;
+          }
+          p {
+              font-size: 18px;
+              text-align: justify;
+          }
+          .btn{
+              width: 20px;
+              height: 20px;
+              display: inline-block;
+              border: solid gray 2px;
+              border-radius: 50px;
+              cursor: pointer;
+
+          }
+          #white{
+              background-color: white;
+
+          }
+          #aqua{
+              background-color: aqua;
+
+          }
+          #violet{
+              background-color: violet;
+
+          }
+          #black{
+              background-color: black;
+
+          }
+          #color-switcher{
+              text-align: right;
+          }
+    </style>
+</head>
+
+<body>
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')" ></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"><span>
+    </div>
+
+    <h1>About</h1>
+    <img src="302137-1sZrgd1418116721 (1).jpg">
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium at, impedit reprehenderit optio odio veritatis animi rerum dolore atque quibusdam libero, ea in deleniti similique distinctio quis minus aut? Vero, eum provident? Ut autem culpa expedita cupiditate ducimus magnam! Repudiandae sint doloribus ipsam aspernatur odit tempore assumenda nihil harum, soluta officia tenetur similique ipsum error sit! Quasi, tempora totam aut nobis reiciendis vero laudantium rem quos fugit sunt officia asperiores dolorem ipsam omnis voluptates amet molestias possimus animi ullam dignissimos atque repellat quod. Ab eum ipsam nulla quod odit voluptatibus in nostrum minima repudiandae eaque? Perferendis voluptas et odit dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam dolorum id saepe vitae est recusandae in aperiam nesciunt similique delectus inventore officiis dicta molestiae libero dolores, animi fuga suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, repellendus! Tempora, harum sapiente natus officiis quas neque sequi ipsum enim alias consequuntur, maiores ipsa expedita placeat qui iste. Blanditiis, quia ex laboriosam eos, eligendi vero animi amet provident corporis in sequi cumque eveniet laudantium mollitia vel reprehenderit fugit! Maxime, at.
+    </p>
+
+    <script>
+        function changeBG(color){
+            document.body.style.backgroundColor = color;
+           
+        }
+    </script>
+
+</body>
+</html>
